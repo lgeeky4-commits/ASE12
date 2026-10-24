@@ -1,0 +1,17 @@
+{
+  "name": "crimson-chat-map",
+  "version": "2.9.0",
+  "description": "ASE Crimson Chat: 140 wallpapers bundled into one GitHub-friendly file, chat, terminals and Mission Lab",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
